@@ -9,7 +9,7 @@ student_examscore = int(input("Enter your exam score ( /100): "))
 total = student_testscore + student_assignmentscore  + student_examscore
 average = total / 3
 
-print(f"Your average score is {round(average, 2)}")
+print(f"\nYour average score is {round(average, 2)}")
 
 # This checks if the student passed or failed based on the average score and also checks eligbility for awards 
 # then prints out the appopriate message.
